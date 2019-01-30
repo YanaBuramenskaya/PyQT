@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Pic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>311</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>gos.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>50</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Britannic Bold</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Госпачо</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>130</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>На главную</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TextOf">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>581</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;Для начала нужно запечь сладкие болгарские перцы в духовке, разогретой до 200-220&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;градусов, в течение 10-15 минут. Помидоры залить кипятком на несколько минут и аккуратно &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;снять кожицу. Перцы достать, посыпать крупной солью и очистить от кожицы. Очистить перцы &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;от семян и нарезать. К помидорам добавить измельченные лук, чеснок и болгарский перец.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;Взбить блендером. Добавить несколько кусочков чиабатты или лаваша, винный уксус, соль&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;и молотый черный перец. Снова перебить гаспачо блендером. Теперь осталось охладить в &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000; background-color:#ffffff;&quot;&gt;холодильнике пару часов, и холодный томатный суп гаспачо готов. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RandomRecipe</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Pic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>321</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>krok.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>30</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Britannic Bold</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Крок-мадам</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TextOf">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>581</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;Ломтики хлеба слегка смазать сливочным маслом и обжарить на сухой сковороде с одной&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;стороны до золотистого цвета.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;Перевернуть. На 2 кусочка хлеба положить по ломтику сыра и накрыть крышкой, чтобы сыр&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;слегка расплавился.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;На сыр положить ветчину, посыпать зеленью, накрыть листом салата,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;положить еще один ломтик сыра и накрыть поджаренным кусочком хлеба. Накрыть крышкой и&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;готовить еще около 30 сек.&lt;br/&gt;Небольшое примечание: после тепловой обработки лист салата приобретает не очень&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;эстетичный вид :), поэтому можно обойтись и без него, а просто подать сэндвич со свежим салатом.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;Отдельно для «Крок-мадам» поджарить яйцо-глазунью. Чтобы оно было по размеру вашего&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt;сэндвича, можно использовать специальное приспособление, или же самодельное кольцо из&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:10pt; color:#303030;&quot;&gt; фольги. Водрузить яйцо сверху на один из сэндвичей.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>110</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>На главную</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

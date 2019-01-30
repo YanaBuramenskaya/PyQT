@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Pic">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>311</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>gua.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>60</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Britannic Bold</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Гуакамоле</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>140</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>На главную</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TextOf">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>581</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;Авокадо режется пополам, из него удаляется косточка. Это делается при помощи ложки&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;или ножа. После этого в отдельной чашке мякоть тропического фрукта разминается до&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;состояния каши.  Добавьте в массу 1 стручок измельченного острого перца. Теперь очередь&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;лука-шалот, он очищается от кожуры, мелко нарезается и отправляется к мякоти авокадо. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;Можно использовать салатный лук белого или красного сорта. Обычная головка может&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;испортить вкус блюда, так как для этого блюда она слишком резкая.  Измельчите&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;зелень и добавьте в миску к остальным ингредиентам.  Прямо в чашку с авокадо выдавливается&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;сок лайма или лимона.  В завершении добавляется оливковое масло.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif'; font-size:13px; color:#000000; background-color:#ffffff;&quot;&gt;Соус хорошо перемешивается.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>610</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

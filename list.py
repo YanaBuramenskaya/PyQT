@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout, QGridLayout, QPushButton
 
 import sys
+import os
 
 
 class ShowMeList(QWidget):
@@ -16,14 +17,21 @@ class ShowMeList(QWidget):
 
         self.setGeometry(250, 250, 250, 150)
         self.setWindowTitle('Список рецептов')
+        self.menu = []
         self.initUI()
 
     def createLayout_group(self):
-        from program import lst
+        self.lst = []
+        self.f = open('arhiv.txt', mode='r')
+        self.lines = self.f.readlines()
+        for i in range(len(self.lines)):
+            self.lst.append(self.lines[i].split(';')[0])
+        self.f.close()
         sgroupbox = QGroupBox(self)
         layout_groupbox = QVBoxLayout(sgroupbox)
-        for i in range(len(lst)):
-            item = QCheckBox(lst[i], sgroupbox)
+        for i in range(len(self.lst)):
+            item = QCheckBox(self.lst[i], sgroupbox)
+            item.stateChanged.connect(self.changelist)
             layout_groupbox.addWidget(item)
         layout_groupbox.addStretch(1)
         return sgroupbox
@@ -40,8 +48,11 @@ class ShowMeList(QWidget):
         self.home = QPushButton('Назад')
         self.home.clicked.connect(self.gohome)
 
+        self.delete = QPushButton('Удалить')
+        self.delete.clicked.connect(self.dellrecipe)
 
         self.layout_SArea.addWidget(self.home)
+        self.layout_SArea.addWidget(self.delete)
         self.layout_SArea.addWidget(self.createLayout_group())
         self.layout_SArea.addStretch(1)
 
@@ -51,6 +62,22 @@ class ShowMeList(QWidget):
         self.new.show()
         self.close()
 
+    def dellrecipe(self):
+        self.f = open('arhiv.txt', mode='r')
+        self.lines = self.f.readlines()
+        self.f.close()
+        self.o = open('arhiv.txt', mode='w')
+        for i in self.lines:
+            if i.split(';')[0] not in self.menu:
+                self.o.write(i.split(';')[0]+';' + i.split(';')[1])
+        self.o.close()
+
+    def changelist(self):
+        if self.sender().checkState():
+            self.menu.append(self.sender().text())
+        else:
+            if self.sender().text() in self.menu:
+                self.menu.remove(self.sender().text())
 
     def initUI(self):
         self.lable2 = QLabel()

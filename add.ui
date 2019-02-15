@@ -91,7 +91,7 @@
      <string>Назад</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="input_text">
     <property name="geometry">
      <rect>
       <x>200</x>
